@@ -16,12 +16,6 @@ const HomeDark = () => {
           {/* START LEFT MENU CONTENT */}
           <div className="leftpart">
             <div className="leftpart_inner">
-              <div className="logo">
-                <Link className="navbar-brand" to="/">
-                  <img src="/assets/img/logo/dark.png" alt="brand" />
-                </Link>
-              </div>
-              {/* END LOGO */}
 
               <div className="menu">
                 <ul>

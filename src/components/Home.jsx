@@ -10,7 +10,7 @@ const Home = () => {
             <div
               className="image avatar_img"
               style={{
-                backgroundImage: "url(assets/img/slider/1.jpg)",
+                backgroundImage: "url(assets/img/slider/profilepic.jfif)",
               }}
             ></div>
             {/* END AVATAR IMAGE */}

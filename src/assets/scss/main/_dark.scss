@@ -280,6 +280,9 @@ body.dark {
     }
     li .svg {
       filter: invert(1);
+      fill: #fff;
+      background-color: #fff;
+      color: #fff;
     }
   }
   .social {
