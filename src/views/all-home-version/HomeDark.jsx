@@ -46,14 +46,6 @@ const HomeDark = () => {
                   <Tab>
                     <img
                       className="svg"
-                      src="/assets/img/svg/paper.svg"
-                      alt="paper"
-                    />
-                    <span className="menu_content">News</span>
-                  </Tab>
-                  <Tab>
-                    <img
-                      className="svg"
                       src="/assets/img/svg/mail.svg"
                       alt="mail"
                     />

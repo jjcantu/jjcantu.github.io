@@ -10,7 +10,7 @@ const Home = () => {
             <div
               className="image avatar_img"
               style={{
-                backgroundImage: "url(assets/img/slider/profilepic.jfif)",
+                backgroundImage: "url(assets/img/slider/profilepic_557x557.jpg)",
               }}
             ></div>
             {/* END AVATAR IMAGE */}
@@ -19,7 +19,7 @@ const Home = () => {
           <div className="details">
             <h3 className="name">Jose Cantu</h3>
             <p className="job">
-              Software Engineer based in McAllen looking for my first role.
+              A Software Engineer based in McAllen looking for my first role.
             </p>
             {/* END JOB */}
             <Social />

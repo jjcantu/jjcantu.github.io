@@ -17,18 +17,17 @@ const About = () => {
         <div className="about_image ">
           <img src="assets/img/slider/1.jpg" alt="about" />
         </div>
-        {/* <div className="o-video">
-          <iframe src="https://www.youtube.com/embed/0yW7w8F2TVA"></iframe>
-        </div> */}
-        {/* END ABOUT IMAGE */}
         <div className="description">
           <h3 className="name">Jose Cantu &amp; Software Engineer</h3>
           <div className="description_inner">
             <div className="left">
               <p>
-                Hello, I am a creative photographer based in New York and happy
-                to travel all over Europe to capture your big day in candid and
-                authentic photos. I will create a lasting memory of the people.
+              I have never been one to step down from something that I was unaware as to how it works. 
+              I take matters into my own hands and dive into a realm that is unknown. 
+              Consequently, I discovered the world of programming and its seemingly never-ending self. 
+              This led me to where I am today. 
+              A determined full-stack engineer who won't steer from unfamiliar technologies and will quench my 
+              compulsive desire to explore the vast world of programming! 
               </p>
               <div className="tokyo_tm_button">
                 <button onClick={toggleModal} className="ib-button">
@@ -64,15 +63,12 @@ const About = () => {
                 <li>
                   <p>
                     <span>Phone:</span>
-                    <a href="tel:+770221770505">(956)777-8054</a>
+                    <a href="tel:+9567778054">(956)777-8054</a>
                   </p>
                 </li>
               </ul>
-              {/* END UL */}
             </div>
-            {/* END RIGHT */}
           </div>
-          {/* END DESCRIPTION INNER */}
         </div>
       </div>
 
