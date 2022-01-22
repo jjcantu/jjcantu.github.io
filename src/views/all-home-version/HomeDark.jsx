@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import Home from "../../components/Home";
 import About from "../../components/About";
 import Portfolio from "../../components/Portfolio";
-import News from "../../components/News";
 import Contact from "../../components/Contact";
 
 const HomeDark = () => {
@@ -89,7 +88,7 @@ const HomeDark = () => {
                 {/* END PORTFOLIO MENU TAB CONTENT */}
 
                 <TabPanel>
-                  <News />
+                  <Contact />
                 </TabPanel>
                 {/* END NEWS MENU TAB CONTENT */}
 
