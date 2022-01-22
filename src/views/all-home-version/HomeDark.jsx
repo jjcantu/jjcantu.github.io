@@ -48,7 +48,7 @@ const HomeDark = () => {
                       src="/assets/img/svg/mail.svg"
                       alt="mail"
                     />
-                    <span className="menu_content"> Contact</span>
+                    <span className="menu_content">Contact</span>
                   </Tab>
                 </ul>
               </div>

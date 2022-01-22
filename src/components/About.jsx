@@ -95,54 +95,51 @@ const About = () => {
               <div className="my_box">
                 <div className="left">
                   <div className="about_title">
-                    <h3>Technology Skills</h3>
+                    <h3>Technical Skills</h3>
                   </div>
                   {/* END ABOUT TITLE */}
 
                   <div className="tokyo_progress">
                     <div className="progress_inner" data-value="95">
                       <span>
-                        <span className="label">Wedding Photography</span>
-                        <span className="number">95%</span>
+                        <i class="dev devicon-javascript-plain"></i>
+                        <i class="dev devicon-python-plain"></i>
+                        <i class="dev devicon-flask-original"></i>
+                        <i class="dev devicon-sequelize-plain"></i>
                       </span>
-                      <div className="background">
-                        <div className="bar">
-                          <div
-                            className="bar_in"
-                            style={{ width: 95 + "%" }}
-                          ></div>
-                        </div>
-                      </div>
                     </div>
-
                     <div className="progress_inner" data-value="80">
                       <span>
-                        <span className="label">Lifestyle Photography</span>
-                        <span className="number">80%</span>
+                        <i class="dev devicon-html5-plain-wordmark"></i>
+                        <i class="dev devicon-css3-plain-wordmark"></i>
+                        <i class="dev devicon-react-original-wordmark"></i>
+                        <i class="dev devicon-redux-original"></i>
                       </span>
-                      <div className="background">
-                        <div className="bar">
-                          <div
-                            className="bar_in"
-                            style={{ width: 80 + "%" }}
-                          ></div>
-                        </div>
-                      </div>
                     </div>
 
                     <div className="progress_inner" data-value="90">
                       <span>
-                        <span className="label">Family Photography</span>
-                        <span className="number">90%</span>
+                       <i class="dev devicon-postgresql-plain"></i>
+                       <i class="dev devicon-nodejs-plain-wordmark"></i>
+                       <i class="dev devicon-git-plain-wordmark"></i>
+                       <i class="dev devicon-ubuntu-plain-wordmark"></i>
                       </span>
-                      <div className="background">
-                        <div className="bar">
-                          <div
-                            className="bar_in"
-                            style={{ width: 90 + "%" }}
-                          ></div>
-                        </div>
-                      </div>
+                    </div>
+                    <div className="progress_inner" data-value="90">
+                      <span>
+                       <i class="dev devicon-socketio-original-wordmark"></i>
+                       <i class="dev devicon-amazonwebservices-plain-wordmark"></i>
+                       <i class="dev devicon-sqlalchemy-plain"></i>
+                       <i class="dev devicon-mocha-plain"></i>
+                      </span>
+                    </div>
+                    <div className="progress_inner" data-value="90">
+                      <span>
+                       <i class="dev devicon-express-original"></i>
+                       <i class="dev devicon-docker-plain-wordmark"></i>
+                       <i class="dev devicon-github-original-wordmark"></i>
+                       <i class="dev devicon-java-plain-wordmark"></i>
+                      </span>
                     </div>
                   </div>
                   {/* END PROGRESS */}
@@ -151,53 +148,25 @@ const About = () => {
 
                 <div className="right">
                   <div className="about_title">
-                    <h3>Soft Skills</h3>
+                    <h3>Intangibles</h3>
                   </div>
                   {/* END TITLE */}
                   <div className="tokyo_progress">
                     <div className="progress_inner" data-value="95">
                       <span>
-                        <span className="label">English</span>
-                        <span className="number">95%</span>
+                        <div className="intan-top label">Determined</div>
                       </span>
-                      <div className="background">
-                        <div className="bar">
-                          <div
-                            className="bar_in"
-                            style={{ width: 95 + "%" }}
-                          ></div>
-                        </div>
-                      </div>
                     </div>
 
                     <div className="progress_inner" data-value="90">
                       <span>
-                        <span className="label">Japanese</span>
-                        <span className="number">90%</span>
+                        <div className="intan label">Adaptable</div>
                       </span>
-                      <div className="background">
-                        <div className="bar">
-                          <div
-                            className="bar_in"
-                            style={{ width: 90 + "%" }}
-                          ></div>
-                        </div>
-                      </div>
                     </div>
-
                     <div className="progress_inner" data-value="85">
                       <span>
-                        <span className="label">Arabian</span>
-                        <span className="number">85%</span>
+                        <div className=" intan label">Collaborative</div>
                       </span>
-                      <div className="background">
-                        <div className="bar">
-                          <div
-                            className="bar_in"
-                            style={{ width: 85 + "%" }}
-                          ></div>
-                        </div>
-                      </div>
                     </div>
                   </div>
                   {/* EDN TOKYO PROGRESS */}
@@ -213,19 +182,19 @@ const About = () => {
                 <ul>
                   <li>
                     <div className="list_inner">
-                      <h3>777+</h3>
-                      <span>Projects Completed</span>
+                      <h3>8+</h3>
+                      <span>Years Swimming</span>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3>3K</h3>
-                      <span>Happy Clients</span>
+                      <h3>1.5K</h3>
+                      <span>Hours Coded</span>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3>9K+</h3>
+                      <h3>20K+</h3>
                       <span>Lines of Code</span>
                     </div>
                   </li>
@@ -233,14 +202,6 @@ const About = () => {
                 {/* END COUNTER CONTENT */}
               </div>
               {/* END COUNTER */}
-
-              <div className="partners">
-                <div className="about_title">
-                  <h3>Our Partners</h3>
-                </div>
-                <Brand />
-              </div>
-              {/* END PARTNER SLIDER */}
             </div>
           </div>
         </div>
