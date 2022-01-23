@@ -5,7 +5,6 @@ import Home from "../../components/Home";
 import About from "../../components/About";
 import Portfolio from "../../components/Portfolio";
 import Contact from "../../components/Contact";
-import ArticleIcon from '@mui/icons-material/Article';
 
 const HomeDark = () => {
   document.body.classList.add("dark");
@@ -41,14 +40,6 @@ const HomeDark = () => {
                       alt="briefcase"
                     />
                     <span className="menu_content">Portfolio</span>
-                  </Tab>
-                  <Tab>
-                    <img
-                        className="svg"
-                        src="/assets/img/svg/article.svg"
-                        alt="article"
-                      />
-                      <a className='menu-content' href="../../assets/Resume.pdf">Resume</a>
                   </Tab>
                   <Tab>
                     <img
@@ -93,9 +84,9 @@ const HomeDark = () => {
                   <Portfolio />
                 </TabPanel>
 
-                <TabPanel>
+                {/* <TabPanel>
                   
-                </TabPanel>
+                </TabPanel> */}
 
                 <TabPanel>
                   <div
