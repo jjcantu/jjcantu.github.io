@@ -26,32 +26,8 @@ const Portfolio = () => {
     <>
       <SimpleReactLightbox>
         <div className="tokyo_tm_portfolio">
-          <div className="tokyo_tm_title">
-            <div className="title_flex">
-              <div className="left">
-                <span>Portfolio</span>
-                <h3>Minimal Portfolio</h3>
-              </div>
-            </div>
-          </div>
-          {/* END TOKYO_TM_TITLE */}
-
           <div className="portfolio_filter">
             <Tabs>
-              <TabList>
-                <Tab>All</Tab>
-                {/* All */}
-                <Tab>Vimeo</Tab>
-                {/* For Vimeo */}
-                <Tab>Youtube</Tab>
-                {/* For Youtube */}
-                <Tab>Photography</Tab>
-                {/* For Images */}
-                <Tab>Details</Tab>
-                {/* For Popup Details */}
-              </TabList>
-              {/* END TABLIST */}
-
               <div className="list_wrapper">
                 <TabPanel>
                   <ul className="portfolio_list">
