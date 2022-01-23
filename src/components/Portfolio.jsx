@@ -1,14 +1,9 @@
 import React, { useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import SimpleReactLightbox from "simple-react-lightbox";
-import { SRLWrapper } from "simple-react-lightbox";
-import ModalVideo from "react-modal-video";
 import Modal from "react-modal";
-import Social from "./Social";
 
 const Portfolio = () => {
-
-  // for modal
   const [isOpen3, setIsOpen3] = useState(false);
   const [isOpen4, setIsOpen4] = useState(false);
   const [isOpen5, setIsOpen5] = useState(false);
