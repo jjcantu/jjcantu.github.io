@@ -13,22 +13,16 @@ const Home = () => {
                 backgroundImage: "url(assets/img/slider/profilepic_557x557.jpg)",
               }}
             ></div>
-            {/* END AVATAR IMAGE */}
           </div>
-          {/* END AVATAR */}
           <div className="details">
             <h3 className="name">Jose Cantu</h3>
             <p className="job">
-              A Software Engineer based in McAllen looking for my first role.
+              A Software Engineer based in McAllen Texas.
             </p>
-            {/* END JOB */}
             <Social />
           </div>
-          {/* END DETAILS */}
         </div>
-        {/* END HOME CONTENT */}
       </div>
-      {/* END HOME */}
     </>
   );
 };

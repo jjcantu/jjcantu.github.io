@@ -1,4 +1,6 @@
 import React from "react";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const SocialShare = [
   {
@@ -10,17 +12,8 @@ const Social = () => {
   return (
     <>
       <ul className="social">
-        {SocialShare.map((val, i) => (
-          <li key={i}>
-            <a href={`${val.link}`} target="_blank" rel="noreferrer">
-              <img
-                className="svg"
-                src={`/assets/img/svg/social/${val.iconName}.svg`}
-                alt="social"
-              ></img>
-            </a>
-          </li>
-        ))}
+        <a target='_blank' href="https://github.com/Vour123" ><GitHubIcon className='icon-about'/></a>
+        <a target='_blank' href="https://www.linkedin.com/in/jose-cantu-91362a1a9/" ><LinkedInIcon className='icon-about'/></a>
       </ul>
     </>
   );
