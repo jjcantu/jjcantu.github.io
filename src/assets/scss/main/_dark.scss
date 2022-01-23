@@ -353,3 +353,31 @@ body.dark {
   color: black !important; 
   font-weight: 550 !important;
 }
+
+.button-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 15rem;
+  height: 10rem;
+}
+
+.repo-link{
+  background-color: white;
+  color: #000;
+  padding: 1rem;
+  width: 7rem;
+  margin-bottom: 1.5rem !important;
+  margin: 1rem;
+  border-radius: 3.5px;
+  text-decoration: none;
+}
+
+.button-holder{
+  transition: all .15s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.button-holder:hover{
+  transform: scale(1.1);
+}
