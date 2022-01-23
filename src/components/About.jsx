@@ -35,7 +35,7 @@ const About = () => {
                 <button onClick={toggleModal} className="ib-button">
                   Read More
                 </button>
-                <a target='_blank' href={resume} className="ib-button">Resume</a>
+                <a target='_blank' href={resume} className="a-button">Resume</a>
               </div>
               {/* END TOKYO BUTTON */}
             </div>
