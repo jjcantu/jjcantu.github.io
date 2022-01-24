@@ -1,12 +1,12 @@
 import React from "react";
 import HomeDark from "../views/all-home-version/HomeDark";
 import NotFound from "../views/NotFound";
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 const Routes = () => {
   return (
     <>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route path="/" component={HomeDark} />
           <Route component={NotFound} />
