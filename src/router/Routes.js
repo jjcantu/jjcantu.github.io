@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 const Routes = () => {
   return (
     <>
-      <Router>
+      <Router basename={window.location.pathname || ''}>
         <Switch>
           <Route path="/" component={HomeDark} />
           <Route component={NotFound} />
