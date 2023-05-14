@@ -8,7 +8,13 @@
     "build": "vite build",
     "eslint": "eslint --color --ext .html,.js,.json,.jsx,.md,.ts,.tsx *.* src",
     "eslint:fix": "npm run eslint -- --fix",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "commit": "git add . && git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
