@@ -1,3 +1,5 @@
+/* eslint-disable eslint-comments/disable-enable-pair */
+/* eslint-disable sonarjs/no-duplicate-string */
 import {
   backend,
   carrent,
@@ -42,11 +44,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Web Developer',
+    title: 'Software Engineer',
     icon: web,
   },
   {
-    title: 'React Native Developer',
+    title: 'Web Developer',
     icon: mobile,
   },
   {
@@ -116,11 +118,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
+    title: 'Full Stack Engineer',
+    company_name: 'BoomNation',
     icon: starbucks,
     iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
+    date: 'August 2022 - Present',
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
