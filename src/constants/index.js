@@ -1,4 +1,5 @@
 /* eslint-disable eslint-comments/disable-enable-pair */
+/* eslint-disable xss/no-mixed-html */
 /* eslint-disable sonarjs/no-duplicate-string */
 import {
   backend,
