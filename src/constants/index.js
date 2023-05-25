@@ -1,14 +1,11 @@
-/* eslint-disable eslint-comments/disable-enable-pair */
-/* eslint-disable xss/no-mixed-html */
-/* eslint-disable sonarjs/no-duplicate-string */
 import {
   backend,
   bnlogo2,
   carrent,
-  css,
+  css,  
   docker,
-  figma,
   git,
+  graphql,  
   html,
   javascript,
   jobit,
@@ -39,6 +36,18 @@ export const navLinks = [
   {
     id: 'contact',
     title: 'Contact',
+  },
+  {
+    id: 'github',
+    title: "Github",
+    isExternal: true,
+    to: "https://github.com/Vour123"
+  },
+  {
+    id: 'linkedin',
+    title: "LinkedIn",
+    isExternal: true,
+    to: "https://www.linkedin.com/in/jose-cantu-91362a1a9/"
   },
 ];
 
@@ -103,13 +112,13 @@ const technologies = [
     icon: git,
   },
   {
-    name: 'figma',
-    icon: figma,
+    name: 'graphql',
+    icon: graphql,
   },
   {
     name: 'docker',
     icon: docker,
-  },
+  }
 ];
 
 const experiences = [
@@ -127,11 +136,11 @@ const experiences = [
     ],
   },
   {
-    title: 'Learning Phase',
-    company_name: 'N/A',
+    title: 'Software Engineer Student',
+    company_name: 'App Academy',
     icon: shopify,
     iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
+    date: 'July 2021 - Jan 2022',
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
@@ -160,33 +169,6 @@ const experiences = [
     points: [
       'I attended The University of Texas Rio Grande Valley, where I pursued a degree in Computer Science and successfully maintained a flawless 4.0 GPA throughout my studies.',
     ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-        'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
-  },
-  {
-    testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg',
-  },
-  {
-    testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
   },
 ];
 
@@ -258,5 +240,5 @@ const projects = [
 
 export {
   experiences, projects,
-  services, technologies, testimonials,
+  services, technologies,
 };
