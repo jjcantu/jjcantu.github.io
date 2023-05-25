@@ -1,4 +1,3 @@
-/* eslint-disable arrow-body-style */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 import React, { useEffect, useState } from "react";
@@ -53,8 +52,7 @@ function Navbar() {
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
-          {navLinks.map((link) => {
-            return (
+          {navLinks.map((link) => (
             <li
               key={link.id}
               className={`${
@@ -66,8 +64,7 @@ function Navbar() {
               : <a href={`#${link.id}`}>{link.title}</a> }
               
             </li>
-            );
-          })}
+            ))}
         </ul>
       </div>
       <div className="sm:hidden flex flex-1 justify-end items-center">
