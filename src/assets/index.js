@@ -1,11 +1,10 @@
 export { default as backend } from './backend.png';
 export { default as carrent } from './carrent.png';
 export { default as close } from './close.svg';
-export { default as meta } from './company/meta.png';
+export { default as bnlogo2 } from './company/bnlogo2.jpg';
 export { default as shopify } from './company/shopify.png';
-export { default as starbucks } from './company/starbucks.png';
-export { default as tesla } from './company/tesla.png';
-export { default as creator } from './creator.png';
+export { default as uil } from './company/uil.png';
+export { default as utrgv } from './company/utrgv.png';
 export { default as github } from './github.png';
 export { default as jobit } from './jobit.png';
 export { default as logo } from './logo.png';

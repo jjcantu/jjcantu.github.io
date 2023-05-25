@@ -22,6 +22,9 @@ function ServiceCard({
           className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
         >
           <img src={icon} alt={title} className="w-16 h-16 object-contain" />
+          <h3 className="text-white text-[20px] font-bold text-center">
+            {title}
+          </h3>
         </div>
       </motion.div>
     </Tilt>
@@ -52,7 +55,7 @@ function About() {
         I am a full-stack developer with a passion for building beautiful and
       </motion.p>
 
-      <div className="mt-20 flex flex-wap gap-10">
+      <div className="mt-20 flex flex-wap gap-10 flex justify-center">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

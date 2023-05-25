@@ -1,9 +1,9 @@
-/* eslint-disable eslint-comments/disable-enable-pair */
 /* eslint-disable react/no-unknown-property */
 import {
   Decal, Float, OrbitControls, Preload, useTexture,
 } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
+import PropTypes from 'prop-types';
 import React, { Suspense } from 'react';
 
 import CanvasLoader from '../Loader';
@@ -18,7 +18,7 @@ function Ball(props) {
       <mesh castShadow receiveShadow scale={2.75}>
         <icosahedronGeometry args={[1, 1]} />
         <meshStandardMaterial
-          color="#fff8eb"
+          color='#fff8eb'
           polygonOffset
           polygonOffsetFactor={-5}
           flatShading
@@ -33,12 +33,11 @@ function Ball(props) {
       </mesh>
     </Float>
   );
-}
+};
 
 export default function BallCanvas({ icon }) {
   return (
     <Canvas
-      frameloop="demand"
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
     >
@@ -50,4 +49,8 @@ export default function BallCanvas({ icon }) {
       <Preload all />
     </Canvas>
   );
-}
+};
+
+BallCanvas.propTypes = {
+  icon: PropTypes.symbol.isRequired,
+};

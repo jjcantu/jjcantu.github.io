@@ -1,4 +1,3 @@
-/* eslint-disable eslint-comments/disable-enable-pair */
 /* eslint-disable react/no-unknown-property */
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';

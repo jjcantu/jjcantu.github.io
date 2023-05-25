@@ -3,8 +3,8 @@
 /* eslint-disable sonarjs/no-duplicate-string */
 import {
   backend,
+  bnlogo2,
   carrent,
-  creator,
   css,
   docker,
   figma,
@@ -12,19 +12,18 @@ import {
   html,
   javascript,
   jobit,
-  meta,
   mobile,
   mongodb,
   nodejs,
   reactjs,
   redux,
   shopify,
-  starbucks,
   tailwind,
-  tesla,
   threejs,
   tripguide,
   typescript,
+  uil,
+  utrgv,
   web,
 } from '../assets';
 
@@ -45,20 +44,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Software Engineer',
+    title: 'Full Stack Engineer',
     icon: web,
-  },
-  {
-    title: 'Web Developer',
-    icon: mobile,
   },
   {
     title: 'Backend Developer',
     icon: backend,
   },
   {
-    title: 'Content Creator',
-    icon: creator,
+    title: 'Web Developer',
+    icon: mobile,
   },
 ];
 
@@ -121,32 +116,19 @@ const experiences = [
   {
     title: 'Full Stack Engineer',
     company_name: 'BoomNation',
-    icon: starbucks,
+    icon: bnlogo2,
     iconBg: '#383E56',
     date: 'August 2022 - Present',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Worked on a team of 3 engineers and heavily utilized React Native to get the BoomNation app to the top 40 on the App Store and Google Play Store.',
+      'Developed scalable infrastructure using Amazon EC2 and implemented strict testing guidelines to ensure 100% uptime for BoomNation app with over 100,000 users',
+      'Built and maintained the back-end infrastructure using technologies such as Node.js, Apollo GraphQL, and PostgreSQL, which enabled the company to handle a high volume of traffic and increase revenue by 20%.',
+      'Utilized agile development methodologies to consistently deliver over 1000+ lines of well-structured and maintainable code per week.',
     ],
   },
   {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
-    title: 'Web Developer',
-    company_name: 'Shopify',
+    title: 'Learning Phase',
+    company_name: 'N/A',
     icon: shopify,
     iconBg: '#383E56',
     date: 'Jan 2022 - Jan 2023',
@@ -158,16 +140,25 @@ const experiences = [
     ],
   },
   {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
+    title: 'Technical Coordinator',
+    company_name: 'University Interscholastic League',
+    icon: uil,
     iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
+    date: 'Jan 2021 - Feb 2022',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Managed the OMEGA timing system to capture and analyze the performance data of hundreds of swimmers during swim meets, ensuring accurate and timely results.',
+      'Developed and maintained a system to manage and store the data securely, using SQL and Excel spreadsheets to track athlete times and statistics',
+      'Collaborated with the technical team to troubleshoot system issues and ensure optimal performance during high-pressure events',
+    ],
+  },
+  {
+    title: 'Computer Science Major',
+    company_name: 'The University of Texas Rio Grande Valley - DNF',
+    icon: utrgv,
+    iconBg: '#E6DEDD',
+    date: 'Aug 2020 - May 2021',
+    points: [
+      'I attended The University of Texas Rio Grande Valley, where I pursued a degree in Computer Science and successfully maintained a flawless 4.0 GPA throughout my studies.',
     ],
   },
 ];
