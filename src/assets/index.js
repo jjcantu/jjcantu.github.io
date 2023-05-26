@@ -1,3 +1,5 @@
+export { default as aa } from './tech/aa.svg';
+// export { default as aws } from './tech/aws.svg';
 export { default as backend } from './backend.png';
 export { default as carrent } from './carrent.png';
 export { default as close } from './close.svg';

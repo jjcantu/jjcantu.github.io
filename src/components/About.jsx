@@ -49,10 +49,12 @@ function About() {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3x1 leading-[30px]"
       >
-        I am a full-stack developer with a passion for building beautiful and
-        I am a full-stack developer with a passion for building beautiful and
-        I am a full-stack developer with a passion for building beautiful and
-        I am a full-stack developer with a passion for building beautiful and
+       I have always been driven by curiosity and a refusal to shy away from unfamiliar territory. 
+       Whenever faced with something I don&apos;t understand, I dive headfirst into the unknown. It was 
+       during one of these ventures that I stumbled upon the captivating realm of programming. Its 
+       infinite possibilities and constant evolution have fueled my passion and shaped me into the 
+       determined full-stack engineer I am today. I embrace unfamiliar technologies without hesitation, 
+       as they provide the perfect canvas for my insatiable thirst to explore the boundless world of programming.       
       </motion.p>
 
       <div className="mt-20 flex flex-wap gap-10 flex justify-center">

@@ -19,7 +19,7 @@ function ExperienceCard({ experience }) {
       iconStyle={{ background: experience.iconBg }}
       icon={(
         <div className="flex justify-center items-center w-full h-full">
-          <img src={experience.icon} alt={experience.company_name} className="w-[60%] h-[60%] object-contain" />
+          <img src={experience.icon} alt={experience.company_name} className="w-[80%] h-[80%] object-contain" />
         </div>
       )}
     >

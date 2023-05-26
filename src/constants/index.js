@@ -1,4 +1,6 @@
 import {
+  aa,
+  // aws,
   backend,
   bnlogo2,
   carrent,
@@ -14,7 +16,6 @@ import {
   nodejs,
   reactjs,
   redux,
-  shopify,
   tailwind,
   threejs,
   tripguide,
@@ -118,7 +119,11 @@ const technologies = [
   {
     name: 'docker',
     icon: docker,
-  }
+  },
+  // {
+  //   name: 'aws',
+  //   icon: aws,
+  // }
 ];
 
 const experiences = [
@@ -138,14 +143,14 @@ const experiences = [
   {
     title: 'Software Engineer Student',
     company_name: 'App Academy',
-    icon: shopify,
+    icon: aa,
     iconBg: '#383E56',
     date: 'July 2021 - Jan 2022',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Acquired proficiency in industry-leading technologies such as React, Node.js, and PostgreSQL, leveraging them to develop robust full-stack web applications.',
+      'Demonstrated a strong grasp of data structures and algorithms, employing them effectively to tackle intricate problems with efficiency and precision.',
+      'Collaborated within agile development teams of four, contributing to the creation of multiple full-stack applications. Embracing agile methodologies, I gained valuable experience in working within a professional environment.',
+      'Engaged in daily pair programming sessions, fostering improved communication skills and a collaborative mindset. This experience enhanced my ability to work effectively within teams and strengthened my capacity as a valuable team player',
     ],
   },
   {
