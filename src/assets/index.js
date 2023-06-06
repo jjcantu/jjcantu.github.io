@@ -1,7 +1,9 @@
 export { default as aa } from './tech/aa.svg';
 // export { default as aws } from './tech/aws.svg';
 export { default as backend } from './backend.png';
-export { default as carrent } from './carrent.png';
+export { default as seedstarter } from './seedstarter.png';
+export { default as babble } from './babble.png';
+export { default as roadtrip } from './roadtrip.png';
 export { default as close } from './close.svg';
 export { default as bnlogo2 } from './company/bnlogo2.jpg';
 export { default as shopify } from './company/shopify.png';

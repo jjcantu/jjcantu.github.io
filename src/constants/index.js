@@ -1,16 +1,16 @@
 import {
   aa,
-  // aws,
   backend,
   bnlogo2,
-  carrent,
+  seedstarter,
+  babble,
+  roadtrip,
   css,  
   docker,
   git,
   graphql,  
   html,
   javascript,
-  jobit,
   mobile,
   mongodb,
   nodejs,
@@ -18,7 +18,6 @@ import {
   redux,
   tailwind,
   threejs,
-  tripguide,
   typescript,
   uil,
   utrgv,
@@ -179,30 +178,30 @@ const experiences = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Seed Starter',
     description:
-        'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+        'A community-focused Kickstarter clone empowering local projects with support and funding. Join us in transforming neighborhoods through creativity, collaboration, and positive change.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'flask',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'postgres',
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: seedstarter,
+    source_code_link: 'https://github.com/a-sugawara/seedStart',
   },
   {
-    name: 'Job IT',
+    name: 'Babble',
     description:
-        'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+        'Web application that enables users communicate with one another. Users can create channels, send messages, and upload files.',
     tags: [
       {
         name: 'react',
@@ -213,32 +212,32 @@ const projects = [
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'postgres',
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
+    image: babble,
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'Trip Guide',
+    name: 'Road Trip',
     description:
-        'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+        'A comprehensive travel booking platform that allows users to rental cars, and offers curated recommendations for popular destinations.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'express',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'postgres',
         color: 'pink-text-gradient',
       },
     ],
-    image: tripguide,
+    image: roadtrip,
     source_code_link: 'https://github.com/',
   },
 ];
