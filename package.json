@@ -8,7 +8,8 @@
     "build": "vite build",
     "eslint": "eslint --color --ext .html,.js,.json,.jsx,.md,.ts,.tsx *.* src",
     "eslint:fix": "npm run eslint -- --fix",
-    "commit": "git add . && git-cz"
+    "commit": "git add . && git-cz",
+    "preview" : "vite preview"
   },
   "config": {
     "commitizen": {
