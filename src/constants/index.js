@@ -41,7 +41,7 @@ export const navLinks = [
     id: 'github',
     title: "Github",
     isExternal: true,
-    to: "https://github.com/Vour123"
+    to: "https://github.com/jjcantu"
   },
   {
     id: 'linkedin',
